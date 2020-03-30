@@ -1,0 +1,28 @@
+{
+  "name": "ts-dicey-business",
+  "version": "1.0.0",
+  "description": "Recompletion of Dicey Business Lab with TS.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bryantellius/TS-Dicey-Business.git"
+  },
+  "author": "Ben Bryant",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bryantellius/TS-Dicey-Business/issues"
+  },
+  "homepage": "https://github.com/Bryantellius/TS-Dicey-Business#readme",
+  "dependencies": {
+    "@types/jquery": "^3.3.34",
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.4.1",
+    "ts-loader": "^6.2.2",
+    "typescript": "^3.8.3",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  }
+}
