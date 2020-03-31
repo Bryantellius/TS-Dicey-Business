@@ -7,15 +7,28 @@
       rel="stylesheet"
       href="node_modules/bootstrap/dist/css/bootstrap.min.css"
     />
+    <link rel="stylesheet" href="style.css" />
     <title>TS Dicey Business</title>
   </head>
   <body>
     <main class="container justify-content-center text-center">
-      <h1>Dicey Business</h1>
-      <section id="btnBar">
-          <button class="btn btn-primary shadow">Add</button>
+      <header class="d-flex justify-content-around border shadow-sm my-2 text-center align-items-center rounded">
+        <span id="date" class="w-25"></span>
+        <h1 class="w-50">Dicey Business</h1>
+        <span id="sum" class="w-25"></span>
+      </header>
+      <section
+        id="btnBar"
+        class="d-flex justify-content-around my-2"
+      >
+        <button id="addBtn" class="btn btn-primary shadow">Add</button>
+        <button class="btn btn-success shadow" id="rollBtn">Roll</button>
+        <button class="btn btn-info shadow" id="sumBtn">Sum</button>
       </section>
-      <section id="diceTable" class="d-flex justify-content-around"></section>
+      <section
+        id="diceTable"
+        class="d-flex justify-content-around flex-wrap my-2"
+      ></section>
     </main>
 
     <script src="dist/app.js"></script>
